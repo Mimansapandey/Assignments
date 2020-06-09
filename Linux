@@ -2,6 +2,9 @@ mkdir home
 mkdir -v home/dir
 mkdir -vp home/dir/world/asia/india/karnataka/banglore/coss
 pwd
+cd
+cd home
+umask 644
 touch file{1..20}
 ls
 cd dir
