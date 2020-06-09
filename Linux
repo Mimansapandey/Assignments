@@ -1,0 +1,77 @@
+mkdir home
+mkdir -v home/dir
+mkdir -vp home/dir/world/asia/india/karnataka/banglore/coss
+pwd
+touch file{1..20}
+ls
+cd dir
+touch file{1..20}
+cd world
+touch file{1..20}
+cd asia
+touch file{1..20}
+cd india
+touch file{1..20}
+cd karnataka
+touch file{1..20}
+cd bangalore
+touch file{1..20}
+cd coss
+touch file{1..20}
+#same command for the rest of the directories
+groupadd "jboss"
+useradd admin
+useradd accounts
+useradd -aG jboss admin
+useradd -aG jboss accounts
+useradd jenkins -s/sbin/nologin
+useradd git -s/sbin/nologin
+sudo useradd devops
+id devops
+sudo usermod -u 4422 devops
+id devops
+useradd -o -u 0 non_admin
+cat /etc/passwd
+sudo -i
+sudo passwd devops
+cat /etc/paasswd
+chage -l devops
+sudo passwd admin
+sudo passwd accounts
+sudo passwd jenkins
+sudo passwd git
+mkdir -vp mnt/hwreport
+pwd
+ls -l
+chmod g+w,o-x hwreport
+ls -ld hwreport
+cd
+ls -ld mnt
+chmod g+w,o-x mnt
+ls -ld mnt
+pwd
+umask 007
+mkdir test
+ls -ld test
+man fdisk
+setfacl -m o::x /etc/fstab
+cd
+touch file{1..5}
+vim file1
+#esc, then :X to type the password and reenter it
+cat file1
+#same procedure with all the other files
+vim file2
+#esc, then :X to type the password and reenter it
+vim file3
+#esc, then :X to type the password and reenter it
+vim file4
+#esc, then :X to type the password and reenter it
+vim file5
+#esc, then :X to type the password and reenter it
+cat file5
+cd
+cp /etc/fstab/var/tmp
+
+
+
