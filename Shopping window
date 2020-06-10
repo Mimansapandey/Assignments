@@ -8,7 +8,6 @@ box.title('Shopping Window')
 box.geometry('400x400')
 Available_items = ['Pen','Pencil','Notebook','Eraser','Apple','Mango']
 print(f'The items that are currently available are : {Available_items}')
-The items that are currently available are : ['Pen', 'Pencil', 'Notebook', 'Eraser', 'Apple', 'Mango']
 Sell = Label(fr1, text = 'Sell', bg = 'yellow')
 Sell.pack(side = 'left')
 Buy = Label(fr2, text = 'Buy', bg = 'blue')
